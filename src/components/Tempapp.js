@@ -16,7 +16,6 @@ const Tempapp = () => {
   }, [search]);
 
   return (
-    <>
       <div className="box">
         <div className="inputData">
           <input
@@ -43,7 +42,6 @@ const Tempapp = () => {
           </div>
         )}
       </div>
-    </>
   );
 };
 
