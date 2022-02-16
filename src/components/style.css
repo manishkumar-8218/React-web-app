@@ -1,0 +1,48 @@
+.box {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin:50vh;
+    /* background-color:rgb(38, 93, 93); */
+    border-radius: 30px 0px 30px 0px;
+    animation-name: background;
+  animation-duration: 4s;
+  animation-iteration-count: 10000;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+.inputData{
+ font-size: x-large;
+ margin: 25px 50px 25px 50px;
+}
+
+@keyframes background {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  @media only screen and (max-width: 600px) {
+    .box {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin:50vh;
+        /* background-color:rgb(38, 93, 93); */
+        border-radius: 30px 0px 30px 0px;
+        animation-name: background;
+      animation-duration: 4s;
+      animation-iteration-count: 10000;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+      width: 50vw;
+      margin-left: 100px;
+    }
+    @keyframes background {
+        from {background-color: red;}
+        to {background-color: yellow;}
+      }
+      .inputData{
+        margin: 25px 50px 25px 50px;
+       }
+  }
